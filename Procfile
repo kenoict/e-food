@@ -1,1 +1,1 @@
-web:gunicorn Foods_Ordering.wsgi
+web:gunicorn Food_Ordering.wsgi
