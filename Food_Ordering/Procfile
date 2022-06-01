@@ -1,1 +1,0 @@
-web:gunicorn FOOD_ORDERING_SYSTEM.wsgi
