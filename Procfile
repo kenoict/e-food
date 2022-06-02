@@ -1,1 +1,2 @@
-web: gunicorn -w 4 -b 0.0.0.0: $PORT -k gevent main:app
+release: python manage.py migrate
+web: gunicorn Foods_Ordering.wsgi
