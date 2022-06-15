@@ -1,2 +1,2 @@
 
-web: gunicorn Foods_Ordering.wsgi
+web: gunicorn Foods_Ordering.wsgi.application
